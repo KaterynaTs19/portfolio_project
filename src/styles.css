@@ -1,6 +1,42 @@
-body {
-  color: red;
-  font-family: "Kanit", sans-serif;
-  margin: 40px;
-  font-size: 45px;
+:root {
+  --branding-color: #32a2f2;
+  --heading-font: "Josefin Slab", serif;
+  --default-font: "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+h1 {
+  font-size: 82px;
+}
+
+p {
+  font-family: var(--default-font);
+  font-weight: regular;
+}
+p {
+  font-size: 55px;
+}
+.hero {
+  margin: 0 auto;
+  padding: 246px 340px;
+  text-align: right;
+  max-width: 1440px;
+}
+
+/*font-family: 'Josefin Slab', serif;
+font-family: 'Lato', sans-serif;*/
+.btn-main {
+  background-color: var(--branding-color);
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+  border-radius: 0;
 }
