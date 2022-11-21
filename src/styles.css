@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #32a2f2;
-  --heading-font: "Josefin Slab", serif;
+  --branding-color: #4d8fc3;
+  --heading-font: "Tiro Devanagari Sanskrit", serif;
   --default-font: "Lato", sans-serif;
 }
 h1,
@@ -14,19 +14,28 @@ h5 {
 h1 {
   font-size: 82px;
 }
-
-p {
-  font-family: var(--default-font);
-  font-weight: regular;
+h2 {
+  font-size: 45px;
+}
+.hero h2 {
+  font-size: 25px;
 }
 p {
+  font-family: var(--default-font);
+
+  font-size: 18px;
+  line-height: 1.5;
+}
+.hero p {
   font-size: 55px;
 }
 .hero {
-  margin: 0 auto;
-  padding: 246px 340px;
-  text-align: right;
-  max-width: 1440px;
+  padding: 150px;
+  text-align: center;
+  background-color: #eaf3fb;
+}
+.project {
+  margin-bottom: 100px;
 }
 
 /*font-family: 'Josefin Slab', serif;
@@ -35,8 +44,21 @@ font-family: 'Lato', sans-serif;*/
   background-color: var(--branding-color);
   color: #fff;
   padding: 20px 40px;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
   font-family: "Lato", sans-serif;
   border-radius: 0;
+}
+.btn-outline {
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+  border-radius: 0;
+  border: 1px solid #4d8fc3;
+  color: #4d8fc3;
+}
+
+@media (min-width: 576px) .container, .container-sm {
+  max-width: 540px;
 }
