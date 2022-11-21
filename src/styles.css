@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #f86313;
+  --branding-color: #acf813;
   --heading-font: "Tiro Devanagari Sanskrit", serif;
   --default-font: "Lato", sans-serif;
 }
@@ -30,9 +30,9 @@ p {
   font-size: 55px;
 }
 .hero {
-  padding: 150px;
   text-align: center;
   background-color: #eaf3fb;
+  padding: 80px 0;
 }
 .project {
   margin-bottom: 100px;
@@ -49,16 +49,32 @@ font-family: 'Lato', sans-serif;*/
   font-family: "Lato", sans-serif;
   border-radius: 0;
 }
-.btn-outline {
+.btn-link {
   padding: 20px 40px;
   font-size: 16px;
   font-weight: normal;
   font-family: "Lato", sans-serif;
   border-radius: 0;
-  border: 1px solid #4d8fc3;
-  color: #4d8fc3;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
 }
 
-@media (min-width: 576px) .container, .container-sm {
-  max-width: 540px;
+@media (max-width: 576px) {
+  body {
+    padding: 10px;
+  }
+  .container {
+    max-width: 540px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .btn-link {
+    display: block;
+  }
+  p {
+    text-align: center;
+  }
 }
