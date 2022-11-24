@@ -12,18 +12,17 @@ h5 {
   font-weight: bold;
 }
 h1 {
-  font-size: 54px;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500px;
 }
-h2 {
-  font-size: 45px;
-}
+
 p {
   font-weight: 400px;
 }
-.hero h2 {
+.hero h2,
+.about-section h2 {
   font-size: 25px;
   font-family: var(--banner-font);
 }
@@ -83,8 +82,17 @@ font-family: 'Lato', sans-serif;*/
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
 }
+.about-section {
+  padding: 150px;
+}
+.about-section h1 {
+  text-transform: none;
+}
 
-@media (max-width: 576px) {
+.about-section-content {
+  margin: 20px;
+}
+@media (max-width: 900px) {
   body {
     padding: 10px;
   }
@@ -101,5 +109,9 @@ font-family: 'Lato', sans-serif;*/
   }
   p {
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 20px;
   }
 }
