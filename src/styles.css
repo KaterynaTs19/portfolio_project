@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #acf813;
-  --heading-font: "Tiro Devanagari Sanskrit", serif;
+  --branding-color: #f23232;
+  --banner-font: "Josefin Slab", serif;
   --default-font: "Lato", sans-serif;
 }
 h1,
@@ -8,31 +8,56 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--heading-font);
+  font-family: var(--default-font);
   font-weight: bold;
 }
 h1 {
-  font-size: 82px;
+  font-size: 54px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500px;
 }
 h2 {
   font-size: 45px;
 }
+p {
+  font-weight: 400px;
+}
 .hero h2 {
   font-size: 25px;
+  font-family: var(--banner-font);
 }
 p {
-  font-family: var(--default-font);
-
   font-size: 18px;
   line-height: 1.5;
+  font-family: var(--default-font);
 }
 .hero p {
   font-size: 55px;
 }
+.hero img {
+  min-width: 500px;
+}
+body,
+html {
+  height: 100%;
+}
 .hero {
+  background-image: url("/img/me_foto.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 50px;
+}
+.banner-text {
   text-align: center;
-  background-color: #eaf3fb;
-  padding: 80px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 .project {
   margin-bottom: 100px;
