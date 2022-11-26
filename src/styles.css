@@ -73,15 +73,7 @@ font-family: 'Lato', sans-serif;*/
   font-family: "Lato", sans-serif;
   border-radius: 0;
 }
-.btn-link {
-  padding: 20px 40px;
-  font-size: 16px;
-  font-weight: normal;
-  font-family: "Lato", sans-serif;
-  border-radius: 0;
-  border: 1px solid var(--branding-color);
-  color: var(--branding-color);
-}
+
 .about-section {
   padding: 150px;
 }
