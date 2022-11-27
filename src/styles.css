@@ -10,6 +10,7 @@ h3,
 h4,
 h5 {
   font-family: var(--heading-font);
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -23,7 +24,14 @@ p {
   line-height: 1.5;
   font-family: var(--default-font);
 }
-
+.content a {
+  text-decoration: none;
+  color: #000;
+  margin: 0;
+}
+.content a:hover {
+  color: var(--button-color);
+}
 .hero {
   padding: 100px;
   margin-top: 100px;
@@ -60,26 +68,35 @@ font-family: 'Lato', sans-serif;*/
 .content {
   margin: 20px;
 }
-@media (max-width: 900px) {
-  body {
-    padding: 10px;
-  }
+@media (max-width: 1200px) {
   .container {
-    max-width: 540px;
     text-align: center;
   }
-  h1 {
-    font-size: 50px;
+  .hero {
+    padding: 60px;
     text-align: center;
+  }
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .hero p {
+    font-size: 20px;
   }
   .btn-link {
     display: block;
   }
-  p {
-    text-align: center;
-  }
+
   .content-container {
     text-align: center;
-    padding: 20px;
+    padding: 100px 20px;
+  }
+  .contacts {
+    text-align: center;
+  }
+}
+@media (min-width: 900px) {
+  .contacts-heading {
+    text-align: left;
   }
 }
