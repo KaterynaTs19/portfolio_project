@@ -16,7 +16,6 @@ h1 {
   font-size: 50px;
 }
 h3 {
-  margin: 0;
   font-size: 27px;
 }
 p {
@@ -83,7 +82,7 @@ font-family: 'Lato', sans-serif;*/
   .hero p {
     font-size: 20px;
   }
-  .btn-link {
+  .btn-main {
     display: block;
   }
 
