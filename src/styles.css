@@ -23,13 +23,25 @@ p {
   line-height: 1.5;
   font-family: var(--default-font);
 }
-
+.active {
+  color: var(--button-color) !important;
+  font-weight: bold;
+}
+.header-logo,
+.header-phone {
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0;
+}
+.header-logo {
+  font-weight: 22px;
+}
 .content a:hover {
   color: var(--button-color);
 }
 .hero {
   padding: 100px;
-  margin-top: 100px;
+
   background-color: var(--branding-color);
 }
 .hero h1 {
@@ -43,9 +55,7 @@ p {
 .hero p {
   font-size: 55px;
 }
-.content {
-  padding: 0 0 0 40px;
-}
+
 /*font-family: 'Josefin Slab', serif;
 font-family: 'Lato', sans-serif;*/
 .btn-main {
@@ -64,6 +74,38 @@ font-family: 'Lato', sans-serif;*/
 .contacts a {
   text-decoration: none;
   color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--default-font);
+}
+
+.phone {
+  font-weight: bold;
+  font-size: 35px;
+  color: var(--button-color);
+}
+nav {
+  padding: 20px 0;
+  font-family: var(--default-font);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+a:hover {
+  color: var(--branding-color);
 }
 @media (max-width: 1200px) {
   .container {
