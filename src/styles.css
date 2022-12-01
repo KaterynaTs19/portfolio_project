@@ -85,7 +85,7 @@ font-family: 'Lato', sans-serif;*/
 
 .phone {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
   color: var(--button-color);
 }
 nav {
@@ -110,6 +110,12 @@ nav a {
 }
 a:hover {
   color: var(--branding-color);
+}
+.content {
+  padding: 0;
+}
+.footer-contact {
+  background-color: var(--branding-color);
 }
 @media (max-width: 1200px) {
   ul a {
@@ -136,9 +142,7 @@ a:hover {
     font-size: 25px;
     font-weight: bold;
   }
-  .content {
-    padding: 0;
-  }
+
   .content-container {
     text-align: center;
     padding: 50px 20px;
