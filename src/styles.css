@@ -20,7 +20,7 @@ h3 {
 }
 p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.66;
   font-family: var(--default-font);
 }
 
@@ -68,6 +68,9 @@ font-family: 'Lato', sans-serif;*/
   font-weight: normal;
   font-family: var(--default-font);
   border-radius: 0;
+}
+.btn-main:hover {
+  background-color: var(--branding-color);
 }
 .container {
   padding: 0 100px;
