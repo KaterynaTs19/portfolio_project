@@ -148,7 +148,8 @@ nav a:hover,
     font-weight: bold;
   }
 
-  .content-container {
+  .content-container,
+  .contacts {
     text-align: center;
     padding: 50px 20px;
   }
