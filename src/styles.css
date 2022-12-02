@@ -109,7 +109,7 @@ nav a {
   color: #000;
 }
 a:hover {
-  color: var(--branding-color);
+  color: var(--button-color);
 }
 .content {
   padding: 0;
