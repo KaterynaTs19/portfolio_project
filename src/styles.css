@@ -122,6 +122,9 @@ nav a:hover,
 .footer-contact {
   background-color: var(--branding-color);
 }
+.contacts {
+  padding: 3em;
+}
 @media (max-width: 1200px) {
   ul a {
     padding: 0 0 0 10px;
