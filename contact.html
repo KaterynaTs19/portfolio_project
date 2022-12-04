@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kateryna Tsykanova</title>
+    <title>Contacts of Kateryna Tsykanova</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,19 +25,31 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <p class="header-logo"><a href="home.html">TSYKANOVA</a></p>
+        <p class="header-logo">
+          <a href="home.html" title="Homepage">TSYKANOVA</a>
+        </p>
         <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="works.html">Works</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="home.html" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About Kateryna">About</a></li>
+          <li><a href="works.html" title="Kateryna's works">Works</a></li>
+          <li>
+            <a href="contact.html" title="Contact Kateryna" class="active"
+              >Contact</a
+            >
+          </li>
         </ul>
         <p class="header-phone d-none d-sm-block">+49 1573 0269636</p>
       </nav>
     </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-5 contacts-heading">Let's get in touch!</h1>
+         <footer>
+        <div
+          class="footer-contact d-none d-md-flex p-5 justify-content-between mb-5"
+        >
+          <h2>Let's work together!</h2>
+          <a href="contact.html" class="btn btn-main">Contact me</a>
+        </div>
         <div class="row contacts">
           <div class="col-lg-2">
             <p>
@@ -61,11 +73,21 @@
             </p>
           </div>
           <div class="col-lg-6 text-end">
-            <div class="mb-3 emeil">
-              <a href="mailto:tskatrinka@gmail.com">tskatrinka@gmail.com</a>
-              <p class="phone">+49 1573 0269636</p>
+            <div class="mb-5 emeil">
+              <a href="https://www.instagram.com/tkat_rin/" target="_blank"
+                >tskatrinka@gmail.com</a
+              >
+              <p class="phone mt-3">+49 1573 0269636</p>
             </div>
           </div>
+        </div>
+        <p class="text-center mb-5">
+          This website was created by Kateryna Tsykanova, and is
+          <a href="https://github.com/KaterynaTs19/portfolio_project"
+            >open-sourced on GitHub</a
+          >
+        </p>
+      </footer>
         </div>
       </div>
     </div>

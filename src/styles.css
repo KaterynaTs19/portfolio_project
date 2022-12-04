@@ -54,6 +54,7 @@ p {
 
 .hero p {
   font-size: 55px;
+  line-height: 1;
 }
 
 /*font-family: 'Josefin Slab', serif;
@@ -77,8 +78,9 @@ font-family: 'Lato', sans-serif;*/
   padding: 0 100px;
 }
 .content-container {
-  padding: 100px;
+  padding: 100px 100px 0;
 }
+
 .contacts a {
   text-decoration: none;
   color: #000;
@@ -139,7 +141,7 @@ nav a:hover,
     padding-left: 0;
   }
   .hero {
-    padding: 50px 20px;
+    padding: 80px 20px;
     text-align: center;
   }
   .hero h1 {
@@ -154,7 +156,7 @@ nav a:hover,
   .content-container,
   .contacts {
     text-align: center;
-    padding: 50px 20px;
+    padding: 50px 20px 0;
   }
   .emeil,
   .phone {
